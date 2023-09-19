@@ -26,6 +26,9 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <div>test</div>
+            <label class="cameraButton">Take a picture
+    <input type="file" accept="image/*;capture=camera">
+  </label>
           </ErrorBoundary>
         </Suspense>
         <Scripts />
